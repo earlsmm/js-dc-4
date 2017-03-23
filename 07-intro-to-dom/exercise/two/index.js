@@ -14,27 +14,62 @@ Before you get started, you should familiarize yourself with the HTML document t
 Get the DOM nodes for the table of contents and the article body and save them both as variables
 
 */
-
-
-
-/*
-
-get an array of every heading in the document and store them in a variable called documentHeadings
-
-*/
-
-
+//
+//var tableOfContents = document.querySelector('#table-of-contents')
+//var articleBody = document.querySelector('#article-body')
+//
+//console.log(tableOfContents, articleBody)
+//
+///*
+//
+//get an array of every heading in the document and store them in a variable called documentHeadings
+//
+//*/
+//
+//var documentHeadings = document.querySelectorAll('.heading')
+//
+//console.log(documentHeadings)
 
 /*
 
 To generate our table of contents we need to do a couple of things:
 
 1. We need to loop through our documentHeadings array
-2. Inside our loop, we need to clone the curent element from the documentHeadings array and append it to the table of contents element
+2. Inside our loop, we need to clone the current element from the documentHeadings array and append it to the table of contents element
 
-*/
+//*/
+//for(var i = 0; i < documentHeadings.length; i++){
+//    
+//}
 
+var ToC =
+  "<nav role='navigation' class='table-of-contents'>" +
+    "<h2>Table of Contents</h2>";
 
+var newLine, el, title, link;
+
+$("article h2").each(function() {
+
+  el = $(this);
+  title = el.text();
+  link = "#" + el.attr("id");
+
+  newLine =
+    "<li>" +
+      "<a href='" + link + "'>" +
+        title +
+      "</a>" +
+    "</li>";
+
+  ToC += newLine;
+
+});
+
+ToC +=
+  
+  "</nav>";
+
+$(".all-questions").prepend(ToC);
 
 /*
 
@@ -62,3 +97,6 @@ hint: you want what you insert to look something like this:
 <a href="#firstHeading"><h1>Lorem ipsum dolor sit amet</h1></a>
 
 */
+    
+////Homework from Chapter 13 Dom
+
