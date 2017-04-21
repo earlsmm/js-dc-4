@@ -1,33 +1,33 @@
 
 
 <img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/5225/JS-logo-official.png" style="max-width: 100px; border: none; box-shadow: none" />
-## Class 08: MVC
+## Class 09: Templating
 
 ---
 ### Agenda
 | Timing | Topic                                    |
 | ------ | ---------------------------------------- |
 | 5  min | Check In                                 |
-| 45 min | Warmup / Review  (quick: WTF is jQuery)  |
-| 10 min | Intro to MVC                             |
-| 5  min | Break                                    |
-| 50 min | MVC cont'd                               |
-| 5  min | Break                                    |
-| 20 min | MVC cont'd                               |
-| 30 min | Exercise                                 |
-| 5  min | Closing Questions & Exit                 |
+| 20 min | Review                                   |
+| 30 min | Warmup                                   |
+| 10 min | WTF is jQuery                            |
+| 80 min | Intro to Templating                      |
+| 30 min | Closing Exercise                         |
+| 15 min | Final Project                            |
+| 5  min | Closing Questions & Exit Ticket          |
 
 ---
 ## Looking Ahead
 
 | Lesson No. |        Topic             |
-| ---------- | -----------------------  |
+| ---------- | ------------------------ |
 |     07     | Intro to the DOM         |
 |     08     | Events                   |
-|   **09**   | **MVC Architecture**     |
+|   **09**   | **Templating**           |
 |     10     | Express                  |
-|     11     | CRUD & DBs               |
-|     12     | APIs                     |
+|     11     | Databases & CRUD         |
+|     11     | APIs                     |
+|     12     | Application Architecture |
 |     13     | Lab #2                   |
 
 ---
@@ -44,8 +44,8 @@
 
 --
 ### jQuery: Cons
-- it's huge and slow
-- makes it really difficult to actually learn JavaScript
+- it's big and slow
+- makes it difficult to actually learn JavaScript
 - promotes a not great way of thinking about the DOM and building web applications
 
 ---
@@ -53,38 +53,7 @@
 Refactor slideshow to respond to events
 
 ---
-## MVC
-Model - View - Controller
-
---
-### Model
-- the data of our application
-- application's resources
-- each "thing" gets a model
-
---
-### View
-- what the user sees
-- the user interface for our application
-
---
-### Controller
-- where we knit our models and views together
-- our business logic
-
---
-## MVC in Sum
-
-|             |                  |
-| ----------  | ---------------- |
-| Model:      | Application Data |
-| View:       | User Interface   |
-| Controller: | Business Logic   |
-|             |                  |
-
----
-## Views (and Templating)
-A brief sidestep to talk about templating
+## Templating
 
 --
 ### Templating: A Brief Introduction
@@ -101,58 +70,54 @@ A brief sidestep to talk about templating
 
 --
 ### Jade / Pug
-```
-h1 This is a Pug template
-h2 By #{author}
-```
+
+<img src="../assets/09-templating-jade.png" style="max-width: 600px; border: none;box-shadow: 0px 18px 20px 6px rgba(0,0,0,0.2);" />
+
 
 --
 ### Nunjucks / Swig
-```
-<h1> Hello \{\% name \%\} </h1>
-```
+
+<img src="../assets/09-templating-nunjucks.png" style="max-width: 600px; border: none;box-shadow: 0px 18px 20px 6px rgba(0,0,0,0.2);" />
+
 
 --
 ### EJS
-```
-<h1> Hello <% name %>  </h1>
-```
+
+<img src="../assets/09-templating-ejs.png" style="max-width: 600px; border: none;box-shadow: 0px 18px 20px 6px rgba(0,0,0,0.2);" />
+
 
 --
 ### Handlebars / Mustache
-```
-<div class="entry">
-  <h1>{{ title }}</h1>
-  <div class="body">
-    {{ body }}
-  </div>
-</div>
-```
+
+<img src="../assets/09-templating-handlebars.png" style="max-width: 600px; border: none;box-shadow: 0px 18px 20px 6px rgba(0,0,0,0.2);" />
+
+
+
+--
+### Relation to Web Components
+
+<img src="../assets/09-templating-react.png" style="max-width: 600px; border: none;box-shadow: 0px 18px 20px 6px rgba(0,0,0,0.2);" />
+
+
 
 --
 ### Up and Running with Handlebars
 http://tryhandlebarsjs.com/
 
 --
-### Turning Handlebars into Views
-
---
-### Adding a model
-
---
-### Wrapping it all together with a controller
+### Handlebars To Do exercise
 
 ---
 ## Final Projects
 
-- [Assignment](https://github.com/ga-students/JS-DC-3/final-project)
+- [Assignment](https://github.com/ga-students/js-dc-4/tree/master/final-project)
 - [Ideas](https://gallery.generalassemb.ly/WDI)
 
 --
 
 ### Final Project Schedule
 
-- Idea Submission: July 18
-- UI Draft: August 2
-- In Class Lab Time: August 16
-- Presentations/Due: August 18
+- Idea Submission: April 4
+- UI Draft: April 18
+- In Class Lab Time: April 27
+- Presentations/Due: May 2

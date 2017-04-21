@@ -10,7 +10,7 @@ Once you're upstairs, tell the folks at the front desk you're here for your firs
 
 ## Office Hours
 
-Zakk: Sundays from 3:30 - 5:30
+Zakk: Sundays from 3:00 - 5:00
 
 Christine: Wednesdays from 5:30 to 7:30
 
@@ -80,9 +80,10 @@ In this lesson, we'll cover the basics of navigating the file system on your com
 - [Slides](https://ga-students.github.io/js-dc-4/01-command-line)
 - [Assignment](01-command-line-JS/assignment.md)
 - [Lesson Notes](01-command-line-JS/lesson_plan.md)
-
+- [Lesson](https://www.youtube.com/watch?v=Tf3uu66NAdM)
 
 ### Class 02: Data Types
+Data types are the most atomic unit of any program. Javascript has many basic data types, which we cover in this lesson, and a couple of complex data types. We'll be introduced to Arrays at the end of the class as our first complex data type.
 
 #### Learning Objectives
 - Describe the concept of a "data type" and how it relates to variables
@@ -91,11 +92,12 @@ In this lesson, we'll cover the basics of navigating the file system on your com
 
 #### Materials
 - [Slides](https://ga-students.github.io/js-dc-4/02-data-types)
-- [Assignment](02-data-types/assignment/decoder.js)
+- [Assignment](02-data-types/assignment/assignment.md)
 - [Lesson Notes](02-data-types/lesson_plan.md)
-
+- [Lesson](https://www.youtube.com/watch?v=_cZPOUf5Ddg)
 
 ### Class 03: Control Flow
+Programming is often described as following a recipe - in this lesson, we discuss why it's more nuanced than that by looking at control flow - ways we can control what code gets executed and the conditions under which it gets executed.
 
 #### Learning Objectives
 - Fork a repository and make a pull request
@@ -106,9 +108,10 @@ In this lesson, we'll cover the basics of navigating the file system on your com
 - [Slides](https://ga-students.github.io/js-dc-4/03-control-flow)
 - [Assignment](03-control-flow/assignment/assignment.md)
 - [Lesson Notes](03-control-flow/lesson_plan.md)
-
+- [Lesson](https://www.youtube.com/watch?v=KO0SdPEt044)
 
 ### Class 04: Functions
+Now that we know how to work with data and control when certain actions are performed by our program, we need a way to encapsulate code so we can reuse it. Functions let us write code that will perform an action whenever we ask it to do so.
 
 #### Learning Objectives
 - Understand what functions are and how, when and why to use them
@@ -121,9 +124,10 @@ In this lesson, we'll cover the basics of navigating the file system on your com
 - [Slides](https://ga-students.github.io/js-dc-4/04-functions)
 - [Assignment](04-functions/assignment.md)
 - [Lesson Notes](04-functions/lesson_plan.md)
-
+- [Lesson](https://www.youtube.com/watch?v=89zXKZllUqI)
 
 ### Class 05: Objects
+Our final class on Javascript as a language covers Objects. This lesson will also cover Object Oriented Programming, a paradigm often held in opposition to Functional Programming, which we talked about in the last class.
 
 #### Learning Objectives
 - Create and modify JavaScript Objects
@@ -134,18 +138,20 @@ In this lesson, we'll cover the basics of navigating the file system on your com
 - [Slides](https://ga-students.github.io/js-dc-4/05-objects)
 - [Assignment](05-objects/assignment.md)
 - [Lesson Notes](05-objects/lesson_plan.md)
-
+- [Lesson](https://www.youtube.com/watch?v=5jAj3ZullDA)
 
 ### Class 06: Lab
+Today's lesson is short and sweet! We'll go over npm and breaking our program out into multiple files then give you the rest of the time to work on the lab!
 
 #### Lab
-- [js-dc-4-Lab01](https://github.com/ga-students/js-dc-4-Lab01)
+- [js-dc-4-Lab01](https://github.com/ga-students/JS-DC-4-Lab01)
 
 #### Materials
 - [Slides](https://ga-students.github.io/js-dc-4/06-lab)
 - [Assignment](06-lab/assignment.md)
 - [Lesson Notes](06-lab/lesson_plan.md)
-
+- [Mini-lessons](https://www.youtube.com/watch?v=zAUKqWrwV3A)
+- [Lab walk through](https://www.youtube.com/watch?v=QXXGT0-Mz-M&feature=youtu.be)
 
 ### Class 07: Intro to the DOM
 
@@ -158,33 +164,34 @@ In this lesson, we'll cover the basics of navigating the file system on your com
 - [Slides](https://ga-students.github.io/js-dc-4/07-intro-to-dom)
 - [Assignment](07-intro-to-dom/assignment.md)
 - [Lesson Notes](07-intro-to-dom/lesson_plan.md)
+- [Lesson](https://www.youtube.com/watch?v=YO3987ePPB8)
 
 
 ### Class 08: Events
+Today's class goes in depth on event driven development, responding to browser/user events with Javascript  and writing event handlers.
 
 #### Learning Objectives
 - Implement events using JavaScript
-- Understand Templating, template methods and template helpers
-- Work with both events and templates
+- Understand how to work with events and how to implement event handlers
+- Learn about event propogation
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc-4/08-events-and-templating)
-- [Assignment](08-events-and-templating/assignment/)
-- [Lesson Notes](08-events-and-templating/lesson_plan.md)
+- [Slides](https://ga-students.github.io/js-dc-4/08-events)
+- [Assignment](08-events/assignment/)
+- [Lesson Notes](08-events/lesson_plan.md)
+- [Lesson](https://www.youtube.com/watch?v=R0_9uYY6qDA)
 
-
-### Class 09: Templating & Build Tools
+### Class 09: Templating
 
 #### Learning Objectives
 - Use Handlebars templates to turn JS into HTML
-- Understand each part of the MVC architecture
-- Use MVC to organize a front-end applications
+- build a simple dynamic application using Handlebars and JS
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc-4/09-mvc)
-- [Assignment](09-mvc/assignment.md)
-- [Lesson Notes](09-mvc/lesson_plan.md)
-
+- [Slides](https://ga-students.github.io/js-dc-4/09-templating/)
+- [Assignment](09-templating/assignment.md)
+- [Lesson Notes](09-templating/lesson_plan.md)
+- [Lesson](https://www.youtube.com/watch?v=SScBAes8kss)
 
 ### Class 10: Express
 
@@ -197,12 +204,13 @@ In this lesson, we'll cover the basics of navigating the file system on your com
 - [Slides](https://ga-students.github.io/js-dc-4/10-express)
 - [Assignment](10-express/assignment.md)
 - [Lesson Notes](10-express/lesson_plan.md)
+- [Lesson](https://www.youtube.com/watch?v=_7Xgg3XA4nk)
 
 
 ### Class 11: CRUD and Databases
 
 #### Learning Objectives
-- Understand the different types of databases and the basics of their differences
+- Understand the differences between different types of databases
 - Describe what CRUD operations are and how they are used
 - Describe an ORM
 - Set up a simple `Express` application that uses `Mongoose` as an ORM to connect to a `MongoDB` database
@@ -235,7 +243,7 @@ In this lesson, we'll cover the basics of navigating the file system on your com
 - [Slides](https://ga-students.github.io/js-dc-4/13-architecture)
 - [Assignment](13-architecture/assignment.md)
 - [Lesson Notes](13-architecture/lesson_plan.md)
-
+- [Lesson](https://www.youtube.com/edit?o=U&video_id=n9ljXpAIpog)
 
 ### Class 14: Lab 2
 [Lab 2](14-lab02/readme.md)
@@ -252,6 +260,7 @@ In this lesson, we'll cover the basics of navigating the file system on your com
 - [Slides](https://ga-students.github.io/js-dc-4/15-authentication)
 - [Assignment](15-authentication/assignment.md)
 - [Lesson Notes](15-authentication/lesson_plan.md)
+- [Lesson](https://www.youtube.com/watch?v=FeEt9JgAtEo)
 
 
 ### Class 16: Single Page Applications
@@ -287,3 +296,6 @@ In this lesson, we'll cover the basics of navigating the file system on your com
 
 ### Class 19: Presentations
 Students will have 10 minutes to present their final projects. See the [presentation requirements here](20-presentations/requirements.md)
+
+### Class 19+: Profit
+Students will $$$

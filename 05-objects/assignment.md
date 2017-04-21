@@ -1,11 +1,14 @@
+# Homework
+Since we didn't get to [exercise 04](https://github.com/ga-students/js-dc-4/blob/master/05-objects/exercises/04_exercise.js) it is now assigned as homework, due before the start of next class!
+
 # Review
 The following is suggested reading for you, if you'd like to review any of the material we've covered in the first part of the course.
 
-I recommend that you finish it before next Monday's class, when we start Part 2 of this course. By no means is any of this *assigned*, it's for your own interest and education.
+I recommend that you finish it before next Tuesday's class, when we start our first lab. By no means is any of this *assigned*, it's for your own interest and education.
 
 - [Eloquent JavaScript, Chapters 1 through 11](http://eloquentjavascript.net/index.html)
 
-In particular, these chapters for review:
+These chapters in particular for review:
 
 1. Values, Types, and Operators
 2. Program Structure

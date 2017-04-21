@@ -26,6 +26,7 @@ app.get('/pokemon/:id', function( req, res ) {
   var pokemon = getPokemon( req.params.id )
   res.render('pokemon', pokemon)
 })
+
 app.listen( 3000, function() {
   console.log( 'Your pokedex is working' )
 })

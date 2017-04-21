@@ -3,10 +3,6 @@ var mongoose = require("mongoose")
 var hbs = require('express-handlebars')
 var cookieParser = require('cookie-parser')
 var bodyParser = require('body-parser')
-var passport = require('passport')
-var LocalStrategy = require('passport-local').Strategy
-
-var User = require('./models/user')
 
 var routes = require('./routes/index')
 
@@ -32,19 +28,9 @@ app.set('view engine', 'handlebars')
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cookieParser())
-app.use(require('express-session')({
-  secret: 'code monkey',
-  resave: false,
-  saveUninitialized: false
-}))
-app.use(passport.initialize())
-app.use(passport.session())
 
 app.use('/', routes)
 
-passport.use( new LocalStrategy(User.authenticate()) )
-passport.serializeUser(User.serializeUser())
-passport.deserializeUser(User.deserializeUser())
 
 app.listen(3000, function() {
   console.log("Server started on port 3000")

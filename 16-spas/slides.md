@@ -8,12 +8,10 @@
 | Timing | Topic                                    |
 | ------ | ---------------------------------------- |
 | 5  min | Check In                                 |
-| 20 min | Final Project                            |
-| 40 min | Authentication                           |
-| 5  min | Break                                    |
-| 20 min | Authentication                           |
-| 30 min | Single Page Applications                 |
-| 5  min | Break                                    |
+| 40 min | Final Project                            |
+| 10 min | Break                                    |
+| 50 min | Single Page Applications                 |
+| 10 min | Break                                    |
 | 50 min | Single Page Applications                 |
 | 5  min | Closing Questions & Exit                 |
 
@@ -31,37 +29,35 @@
 ## Final Project
 
 --
-### Break out and discuss
+## User Experience Research
+- Wireframing
+- User Journeys
 
 --
-### Format:
-1. Present your idea ( 2 minutes )
-2. Answer group questions ( 3 minutes )
+### Wireframing
+Sketch and outline the views of our applications
 
 --
-### Count 1 through 3
+### How to Wireframe
+- hand drawn symbols for components of our application
+- we can layout these symbols however we like and test out different layouts
+- start broad and work your way in
 
 --
-### One person presents their idea ( 2 minutes )
-- What problem does your idea solve?
-- What features will your application have?
-- What technical challenges to you foresee with building this app?
+### Our first wireframe
 
 --
-### Group Question Ideas ( 3 minutes )
-- What third-party libraries will you use?
-- How will you architect your applications?
-- What models will you use? what properties will they have?
-
----
-### Authentication (reintroduction)
-Authentication is the process of confirming and proving identity. In web applications, authentication refers to users identifying themselves through a login procedure.
+### Now you make one!
 
 --
-### Breaking it down
+### User Journeys
+Creating a map of how a user will navigate through and around our applications
 
 --
-### Code along!
+### Our first user journey
+
+--
+### Now you make one!
 
 ---
 ## Single Page Applications
@@ -76,9 +72,13 @@ Authentication is the process of confirming and proving identity. In web applica
 
 --
 ### History
+- tied to the history and development of AJAX
+- have become the industry standard for building applications
+- driven by the desire to provide a fluid and interactive user experience
 
 --
-### Building an SPA
+## Building an SPA
+Lets build one!
 
 ---
 ## The end

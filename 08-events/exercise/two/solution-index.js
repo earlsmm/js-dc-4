@@ -11,14 +11,14 @@ Two basic event handlers
 Discuss Together
 
 */
-// var button = document.querySelector('.js-button')
-// button.onclick = function() {
-//   console.log( 'clicked' )
-// }
+var button = document.querySelector('.js-button')
+button.onclick = function() {
+  console.log( 'clicked' )
+}
 
-// button.addEventListener("click", function() {
-//   console.log( 'clicked' )
-// }, false)
+button.addEventListener("click", function() {
+  console.log( 'clicked' )
+}, false)
 
 
 /*
