@@ -19,9 +19,7 @@ function renderView() {
 // Controller
 
 function setup() {
-
   renderView()
-
   document.querySelector('form').addEventListener('submit', createTodo)
 }
 

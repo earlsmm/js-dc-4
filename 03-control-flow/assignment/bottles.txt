@@ -1,0 +1,16 @@
+//99 Bottles of Beer (bottles.js) Write a script that logs to the console the lyrics to "99 Bottles of Beer on the Wall" in the terminal. If you're unfamiliar with the song, you can find the lyrics here. Make sure your program can handle both singular and plural cases (i.e. both "100 bottles of beer" and "1 bottle of beer").
+
+var bottlesBeer = 100
+
+while (bottlesBeer >0 ){
+    if (bottlesBeer > 1) {
+        console.log([bottlesBeer] + " bottles of beer on the wall, " + [bottlesBeer] + " bottles of beer. Take one down pass it around, " + [bottlesBeer -1] + " bottles of beer on the wall.")
+    bottlesBeer--
+    } else if (bottlesBeer === 1) {
+        console.log([bottlesBeer] + " bottle of beer on the wall, " + [bottlesBeer] + " bottle of beer. Take one down pass it around, no bottles of beer on the wall.")
+    bottlesBeer--
+    } 
+    
+}
+
+//[i] bottles of beer on the wall, [i] bottles of beer. Take one down pass it around [i-1] bottles of beer on the wall
