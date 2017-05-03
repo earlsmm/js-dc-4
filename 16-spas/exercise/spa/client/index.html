@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>To do list</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+
+    <header>
+      <div class="wrapper">
+        <h1>To Do List</h1>
+        <p><em>The world's greatest to do list app!</em></p>
+      </div>
+    </header>
+
+    <main id="app">
+
+    </main>
+
+    <footer>
+      <div class="wrapper">
+        <p>Create by <em>jim</em> Inc.</p>
+        <p>Copyright 2017</p>
+      </div>
+    </footer>
+
+    <!-- Templates -->
+    <!--
+        3 Templates
+        1.List of todo
+        2. A new todo
+        3. A single todo
+
+  -->
+  <script id="template-toDoList" type="text/x-handlebars-template">
+      <div class="todo-list">
+        <h2>Today's to dos:</h2>
+        <a href="#" class="new js-new">New</a>
+        <ul class="js-list">
+          {{#each todos}}
+            <li class="todo-list-item" data-id="{{ this._id }}">
+              <a href="#">{{ this.title }}</a>
+            </li>
+          {{/each}}
+        </ul>
+      </div>
+   </script>
+
+    <script id="template-newTodo" type="text/x-handlebars-template"></script>
+
+    <script id="template-singleTodo" type="text/x-handlebars-template"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
+
+    <script src="app/index.js" charset="utf-8"></script>
+
+  </body>
+</html>
